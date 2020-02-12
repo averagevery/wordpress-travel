@@ -1,4 +1,4 @@
-/*! elementor - v2.8.4 - 19-01-2020 */
+/*! elementor - v2.8.5 - 27-01-2020 */
 body {
   color: #E0E1E3; }
   body .pcr-app {
@@ -65,6 +65,10 @@ select {
   #elementor-mode-switcher:hover {
     background-color: #71D7F7; }
 
+.elementor-control-dynamic-switcher {
+  background-color: #34383C;
+  border-color: #64666A; }
+
 .elementor-tags-list {
   background-color: #4C4F56;
   border-color: #64666A; }
@@ -112,6 +116,8 @@ select {
     .elementor-panel .elementor-element:hover .title,
     .elementor-panel .elementor-element:hover .icon {
       color: #71D7F7; }
+    .elementor-panel .elementor-element > .eicon-lock {
+      color: #B4B5B7; }
   .elementor-panel .widget-inside {
     background-color: inherit; }
   .elementor-panel #elementor-panel-footer {
@@ -231,7 +237,11 @@ a.elementor-responsive-switcher {
   border-color: #64666A; }
 
 .elementor-control-type-url .elementor-control-url-more {
-  border-left-color: #64666A; }
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.elementor-control-type-url .elementor-input:focus ~ div {
+  border-color: #7D7E82; }
 
 .elementor-control-type-wysiwyg .wp-editor-container {
   border-color: #64666A; }
@@ -408,6 +418,23 @@ a.elementor-responsive-switcher {
 .select2-dropdown {
   background-color: #34383C;
   border-color: #7D7E82; }
+
+.elementor-element--promotion__dialog {
+  background-color: #475158;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5); }
+  .elementor-element--promotion__dialog:after {
+    border-right-color: #475158; }
+  .elementor-element--promotion__dialog .dialog-header {
+    color: #E0E1E3;
+    border-bottom-color: #64666A; }
+    .elementor-element--promotion__dialog .dialog-header .eicon-pro-icon {
+      color: #7D7E82; }
+    .elementor-element--promotion__dialog .dialog-header .eicon-close {
+      color: #B4B5B7; }
+
+body.rtl .elementor-element--promotion__dialog:after {
+  border-left-color: #475158; }
 
 .dialog-type-lightbox {
   background-color: rgba(0, 0, 0, 0.65); }

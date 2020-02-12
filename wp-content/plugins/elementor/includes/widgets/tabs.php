@@ -110,6 +110,9 @@ class Widget_Tabs extends Widget_Base {
 				'placeholder' => __( 'Tab Content', 'elementor' ),
 				'type' => Controls_Manager::WYSIWYG,
 				'show_label' => false,
+				'dynamic' => [
+					'active' => false,
+				],
 			]
 		);
 
@@ -387,10 +390,10 @@ class Widget_Tabs extends Widget_Base {
 	 *
 	 * Written as a Backbone JavaScript template and used to generate the live preview.
 	 *
-	 * @since 1.0.0
+	 * @since 2.9.0
 	 * @access protected
 	 */
-	protected function _content_template() {
+	protected function content_template() {
 		?>
 		<div class="elementor-tabs" role="tablist">
 			<#

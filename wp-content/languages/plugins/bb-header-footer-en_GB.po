@@ -1,0 +1,93 @@
+# Translation of Plugins - Beaver Builder Header Footer - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - Beaver Builder Header Footer - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-25 00:19:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Beaver Builder Header Footer - Development (trunk)\n"
+
+#. Description of the plugin
+msgid "An easy-to-use Beaver Builder addon to import pages or templates as a header or a footer across a Beaver Builder website."
+msgstr "An easy-to-use Beaver Builder addon to import pages or templates as a header or a footer across a Beaver Builder website."
+
+#: admin/render-admin-panel.php:44
+msgid "Make the current header sticky?"
+msgstr "Make the current header sticky?"
+
+#: admin/render-admin-panel.php:46
+msgid "Shrink sticky header"
+msgstr "Shrink sticky header"
+
+#: admin/render-admin-panel.php:50
+msgid "Shrink the sticky header?"
+msgstr "Shrink the sticky header?"
+
+#: admin/render-admin-panel.php:40
+msgid "Sticky Header"
+msgstr "Sticky Header"
+
+#: admin/render-admin-panel.php:52
+msgid "Footer"
+msgstr "Footer"
+
+#: admin/render-admin-panel.php:16
+msgid "Header"
+msgstr "Header"
+
+#. Translators: URL to activate/install Beaver Builder lite version
+#: class-bb-header-footer.php:89
+msgid "The <strong>BB Header Footer</strong> plugin requires Latest version of <strong><a href=\"%s\">Beaver Builder</strong></a> plugin installed & activated."
+msgstr "The <strong>BB Header Footer</strong> plugin requires Latest version of <strong><a href=\"%s\">Beaver Builder</strong></a> plugin installed & activated."
+
+#: admin/render-admin-panel.php:68
+msgid "The page selected here will be replaced by the footer of the theme."
+msgstr "The page selected here will be replaced by the footer of the theme."
+
+#: admin/render-admin-panel.php:32
+msgid "The page selected here will be replaced by the header of the theme.<br> If your theme adds separate option for menu that can be enabled/disabled from theme options."
+msgstr "The page selected here will be replaced by the header of the theme.<br> If your theme adds a separate option for a menu that can be enabled/disabled from theme options."
+
+#: admin/render-admin-panel.php:34
+msgid "Transparent Header"
+msgstr "Transparent Header"
+
+#: admin/render-admin-panel.php:38
+msgid "Transparent header will be enabled on pages designed with Beaver Builder."
+msgstr "Transparent header will be enabled on pages designed with Beaver Builder."
+
+#. Plugin Name of the plugin
+msgid "Beaver Builder Header Footer"
+msgstr "Beaver Builder Header Footer"
+
+#: admin/class-bb-admin-ui.php:35
+msgid "BB Header Footer"
+msgstr "BB Header Footer"
+
+#: class-bb-header-footer.php:169
+msgid "Hey, your current theme is not supported by BB Header Footer, click <a href=\"https://github.com/Nikschavan/bb-header-footer#which-themes-are-supported-by-this-plugin\">here</a> to check out the supported themes."
+msgstr "Hey, your current theme is not supported by BB Header Footer, click <a href=\"https://github.com/Nikschavan/bb-header-footer#which-themes-are-supported-by-this-plugin\">here</a> to check out the supported themes."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Nikschavan/bb-header-footer/"
+msgstr "https://github.com/Nikschavan/bb-header-footer/"
+
+#. Author URI of the plugin
+msgid "https://www.brainstormforce.com/"
+msgstr "https://www.brainstormforce.com/"
+
+#: admin/render-admin-panel.php:72
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: admin/render-admin-panel.php:54
+msgid "Select a page to be used as Footer"
+msgstr "Select a page to be used as Footer"
+
+#: admin/render-admin-panel.php:18
+msgid "Select a page to be used as Header"
+msgstr "Select a page to be used as Header"

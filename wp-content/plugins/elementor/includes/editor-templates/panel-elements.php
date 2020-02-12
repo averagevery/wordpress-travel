@@ -6,9 +6,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <script type="text/template" id="tmpl-elementor-panel-elements">
-	<div id="elementor-panel-elements-loading">
-		<i class="eicon-loading eicon-animation-spin"></i>
-	</div>
 	<div id="elementor-panel-elements-navigation" class="elementor-panel-navigation">
 		<div class="elementor-component-tab elementor-panel-navigation-tab" data-tab="categories"><?php echo __( 'Elements', 'elementor' ); ?></div>
 		<div class="elementor-component-tab elementor-panel-navigation-tab" data-tab="global"><?php echo __( 'Global', 'elementor' ); ?></div>
@@ -40,6 +37,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <script type="text/template" id="tmpl-elementor-element-library-element">
 	<div class="elementor-element">
+		<# if ( false === obj.editable ) { #>
+			<i class="eicon-lock"></i>
+		<# } #>
 		<div class="icon">
 			<i class="{{ icon }}" aria-hidden="true"></i>
 		</div>
